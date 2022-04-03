@@ -38,7 +38,7 @@ const handleTimer = () => {
 
 const logoutAction = () => {
   localStorage.clear();
-  window.location.pathname = "/signin";
+  window.location.pathname = "/";
 };
   return children;
 };
